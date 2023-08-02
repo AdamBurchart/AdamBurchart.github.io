@@ -14,5 +14,6 @@ buttons.forEach(button => {
 
     slides.children[newIndex].dataset.active = true
     delete activeSlide.dataset.active
+    
   })
 })
