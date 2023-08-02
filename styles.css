@@ -1,0 +1,98 @@
+/* Resetowanie stylów i podstawowe style dla stron */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Styl dla nagłówka */
+  header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 10px 0;
+    font-family: 'Kanit';font-size: 44px;
+  }
+  
+  /* Styl dla nawigacji */
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Styl dla sekcji "O Firmie" i "Usługi" */
+  section {
+    padding: 20px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styl dla galerii zdjęć */
+  .gallery-item {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Styl dla formularza kontaktowego */
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    margin-bottom: 5px;
+  }
+  
+  form input, form textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  form textarea {
+    resize: vertical;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Styl dla stopki */
+  footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+  }
+  

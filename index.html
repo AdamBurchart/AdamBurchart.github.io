@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wyjątkowe Wykończenia</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script></head>
+<body>
+  <header>
+    <div class="logo">
+      <!-- Wstaw logo firmy -->
+      <h1>BurSystem</h1>
+    </div>
+    <h2>Twój Dom, Twój Styl</h2>
+  </header>
+
+  <nav>
+    <ul>
+      <a href="#about">O Firmie</a>
+      <a href="#services">Usługi</a>
+      <a href="#cennik">Cennik</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#contact">Kontakt</a>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>O Firmie</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex nisi, molestie a turpis nec, sagittis aliquam purus. Phasellus placerat eget massa in elementum. Aliquam erat volutpat. Proin auctor aliquet pulvinar. Maecenas rutrum consectetur arcu eu porta. Etiam tristique, augue eget aliquam vehicula, nisl nisi consequat nulla, at bibendum diam urna non nibh. Proin non eros ac dolor ultricies gravida. Sed non rhoncus justo. Nam turpis leo, luctus at scelerisque quis, blandit sed ante. Mauris lobortis venenatis turpis, ullamcorper maximus erat maximus a. Aenean ut pretium ligula, ac ullamcorper nisi. Praesent feugiat magna sed tellus congue, vel tincidunt sem suscipit. Aliquam erat volutpat. Nulla facilisi. Vestibulum tristique, nulla eu egestas tincidunt, risus lacus tincidunt nisi, non porttitor massa justo hendrerit augue.</p>
+  </section>
+
+  <section id="services">
+    <h2>Usługi Wykończeniowe</h2>
+    <ul>
+      <li>Malowanie ścian i sufitów</li>
+      <li>Tapetowanie</li>
+      <li>Montaż paneli podłogowych</li>
+      <li>Instalacje elektryczne</li>
+      <!-- Dodaj usługi, które oferujesz -->
+    </ul>
+  </section>
+
+  <section id="cennik">
+    <h2>Cennik</h2>
+    <ul>
+      <li>xyz - 1234zł</li>
+      <li>xyz - 1234zł</li>
+      <li>xyz - 1234zł</li>
+      <li>xyz - 1234zł</li>
+      <!-- Dodaj cennik jaki oferujesz -->
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Galeria Zdjęć</h2>
+    <div class="carousel" data-carousel>
+      <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+      <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+      <ul data-slides>
+        <li class="slide" data-active>
+          <img src="https://source.unsplash.com/78A265wPiO4" alt="Nature Image #1">
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/eOpewngf68w" alt="Nature Image #2">
+        </li>
+        <li class="slide">
+          <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Kontakt</h2>
+    <form>
+      <label for="name">Imię i Nazwisko:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Adres E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Wiadomość:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Wyślij</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 BurSystem. Wszelkie prawa zastrzeżone.</p>
+    <!-- Dodaj informacje o prawach autorskich i linki do mediów społecznościowych -->
+  </footer>
+</body>
+</html>
