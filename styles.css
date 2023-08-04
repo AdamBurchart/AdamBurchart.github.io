@@ -16,22 +16,34 @@ body {
   
   header h1 {
     font-size: 28px;
-    margin: 10px 0;
-    font-family: 'Kanit';font-size: 44px;
+    font-family: 'Kanit';
+    font-size: 44px;
+  }
+
+  header h2 {
+    font-family: 'Poppins', sans-serif;
   }
   
   /* Styl dla nawigacji */
   nav {
     background-color: #333;
     color: #fff;
+    display: grid;
     text-align: center;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
   }
+  ul {
+    display: block;
+    list-style-type: disc;
+    padding: 0px;
+    
+}
   
   nav a {
     color: #fff;
     text-decoration: none;
-    margin: 0 10px;
+    margin: 10px 10px;
   }
   
   nav a:hover {
@@ -39,8 +51,26 @@ body {
   }
   
   /* Styl dla sekcji "O Firmie" i "Usługi" */
+  .anm {
+    transition: all 2s;
+    filter: blur(5px);
+    transform: translateX(-100%)
+  }
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0)
+  }
+  .anm1 {
+    display: grid;
+    align-content: center;
+    place-items: center;
+  }
   section {
     padding: 20px;
+    background-color: #131313;
+    color: white;
+    font-family: 'Poppins', sans-serif;
   }
   
   section h2 {
@@ -54,6 +84,8 @@ body {
     max-width: 960px;
     height: 50vh;
     position: relative;
+    margin: auto;
+    width: 50%;
   }
   
   .carousel > ul {
@@ -120,7 +152,8 @@ body {
   form {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 500px;
+    min-width: 380px;
     margin: 0 auto;
   }
   
