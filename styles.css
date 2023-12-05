@@ -8,7 +8,8 @@ body {
   
   /* Styl dla nagłówka */
   header {
-    background-color: #f2f2f2;
+    background-color: rgba(29, 27, 27, 0.966);
+    color: white;
     padding: 20px;
     text-align: center;
 
@@ -16,7 +17,7 @@ body {
   
   header h1 {
     font-size: 28px;
-    font-family: 'Kanit';
+    font-family: 'Kanit', sans-serif;
     font-size: 44px;
   }
 
@@ -26,8 +27,8 @@ body {
   
   /* Styl dla nawigacji */
   nav {
-    background-color: #333;
-    color: #fff;
+    background-color: #1b1b1b;
+    color: #242424;
     display: grid;
     text-align: center;
     padding: 10px;
@@ -62,7 +63,7 @@ body {
     transform: translateX(0)
   }
   .anm1 {
-    display: grid;
+ 
     align-content: center;
     place-items: center;
   }
@@ -153,7 +154,6 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    min-width: 380px;
     margin: 0 auto;
   }
   
@@ -181,12 +181,12 @@ body {
   
   /* Styl dla stopki */
   footer {
-    background-color: #6d6d6d;
+    background-color: #181818;
     padding: 10px;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   footer a {
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
   }
