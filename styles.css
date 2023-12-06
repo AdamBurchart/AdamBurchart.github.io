@@ -190,3 +190,6 @@ body {
     text-decoration: none;
     color: rgb(255, 255, 255);
   }
+  img{
+    padding: 20px;
+    float: right; }
